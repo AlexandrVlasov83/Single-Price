@@ -103,6 +103,7 @@ body {
 }
 
 .container-subscription {
+	display: flex;
 	background-color: #2BB3B1;
 	width: 50%;
 }

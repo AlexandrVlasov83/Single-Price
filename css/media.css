@@ -1,0 +1,42 @@
+@media (max-width: 700px) {
+	.content {
+		max-width: 400px;
+	}
+	.content-info {
+		padding: 25px 20px;
+	}
+	.main-subscription {
+		margin: 25px 20px;
+	}
+	.main-about {
+		margin: 25px 20px;
+	}
+}
+
+@media (max-width: 450px) {
+	.content {
+		max-width: 300px;
+	}
+	.content-main {
+		flex-direction: column;
+		align-items: center;
+	}
+	.container-subscription {
+		width: 100%;
+		display: block;
+	}
+	.container-about {
+		width: 100%;
+	}
+	.title {
+		font-size: 20px;
+		margin-bottom: 28px;
+	}
+	.subtitle {
+		font-size: 15px;
+	}
+	.content-info p {
+		font-size: 13px;
+		line-height: 1.8;
+	}
+}
